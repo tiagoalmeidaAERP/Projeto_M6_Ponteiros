@@ -23,7 +23,7 @@ int main()
     system("pause");
     system("cls");
 
-    cout << "Selecione a opção que pretende: " << endl;
+    cout << "Selecione a opcao que pretende: " << endl;
     cout << "[1] -> Letra mais usada numa frase" << endl;
     cout << "[2] -> Inverter frases" << endl;
     cout << "[3] -> Frases minusculas para maiusculas" << endl;
@@ -73,7 +73,7 @@ int main()
             p1--;
             cout << "Frase Invertida: ";
             while (p1>= frase)
-                cout << *p1--;
+                cout << *p1-- << endl;
             break;
         }
         
